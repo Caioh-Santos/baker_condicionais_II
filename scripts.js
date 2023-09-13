@@ -58,6 +58,20 @@ function verificarClimaParaSair (){
 
 //--------------------------------------
 
+/*
+    switch(variavel_analisada){
+        case "caso1":
+            // o que vai ser feito 
+            console.log('Leve o casaco');
+            break;
+        default:
+            // caso padrão
+            console.log("Clima não encontrado");
+*/
+
+
+/*
+
 let clima = prompt('Qual clima está hoje (frio |chuvoso | calor | ensolarado)')
 
 const verificarClima =()=>{
@@ -80,14 +94,22 @@ const verificarClima =()=>{
 }
 
 verificarClima()
+*/ 
 
+//------------- TERNÁRIO -------------
 
+// 1. Ternário, forma simplificada de escrever condicional IF ELSE 
+// Refazendo a função verificarClimaParaSair
 
+/*
+function verificarClimaParaSair (){
+    let chuva = prompt('Está chovendo ? Digite sim ou não')
 
+    chuva === 'sim'? console.log('Leve o guarda chuva') : console.log('Leve o óculos de sol')
+}
 
-
-
-
+verificarClimaParaSair ()
+*/
 
 //----------- EXERCICIO 1 -----------
 //----------- EXERCICIO 2 -----------
